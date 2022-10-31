@@ -1,0 +1,15 @@
+---
+title: "Min homework_4 website"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+    theme: cerulean
+---
+
+#### Welcome!
+
+<img src="images/coco.jpg" style="width:75%">
+
+
+*my puppy Coco*
