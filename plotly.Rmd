@@ -1,0 +1,54 @@
+---
+title: "Plotly"
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: columns
+    vertical_layout: fill
+---
+
+```{r setup, include=FALSE}
+library(flexdashboard)
+library(tidyverse)
+library(p8105.datasets)
+library(plotly)
+```
+
+```{r}
+instacart_sample = sample_n(instacart,200)
+```
+
+Column {data-width=650}
+-----------------------------------------------------------------------
+
+### Chart A
+
+```{r}
+instacart_sample %>% 
+  mutate(department = fct_reorder(department, order_number)) %>% 
+  plot_ly(y = ~order_number, color = ~department, type = "box", colors = "viridis") %>% 
+  layout(title = "Distribution of order number in different department")
+```
+
+Column {data-width=350}
+-----------------------------------------------------------------------
+
+### Chart B
+
+```{r}
+instacart_sample %>% 
+  select(department,order_number) %>% 
+  group_by(department) %>% 
+  mutate(department = fct_reorder(department, order_number)) %>% 
+  plot_ly(x = ~department, y = ~order_number, color = ~department, type = "bar", colors = "viridis") %>% 
+  layout(title = "Total order number in different department")
+```
+
+### Chart C
+
+```{r}
+instacart_sample %>% 
+  plot_ly(x = ~order_dow, y = ~order_hour_of_day, color = ~department, type = "scatter", mode = "markers", alpha = 1) %>%
+  layout(title = "Is shopping time different in different day of week")
+```
+
+
