@@ -13,3 +13,5 @@ output:
 
 
 *my puppy Coco*
+
+In this website, I will show my resume and a plotly project about Instacart dataset.
