@@ -1,0 +1,44 @@
+---
+title: "Resume"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+    theme: cerulean
+---
+
+<img src="images/me.jpg" style="width:40%"> *This is me!*
+
+#### Education Background
+
+Columbia University | New York, NY | 09/2022-05/2024  
+Mailman School of Public Health, Biostatistics M.S. Public Health Data Science Concentration
+
+The University of California Santa Barbara | Santa Barbara, CA | 09/2018-06/2022  
+College of Letters and Science, Cumulative Total GPA: 3.68/4.0  
+Dean’s List: Spring & Fall 2020, Winter 2021&2022   
+Applied Mathematics B.S., Major GPA: 3.75/4.0; Economics B.A., Major GPA: 3.79/4.0   
+
+Chengdu No.7 High School | Chengdu, Sichuan | 09/2015-06/2018
+
+GRE Total 331, Quantitative 167, Verbal 164, Writing 4.0 (Test Date: 09/03/2021)
+
+
+#### Research Experience
+
+Remote Research Assistant   
+Laboratory of Structural Cell Biology at Emory University|Atlanta, GA|10/2021-3/2022  
+Write review summary for life sciences and biomedical articles on the Ebola virus  
+Score papers on their relevance on biological targets, antiviral, and antibody therapies for the Ebola virus
+
+Study of Association of Health Status and Health Change with Sociodemographic Characteristics  
+Remote Researcher | Mercer University | Atlanta, GA | 03/2021-10/2021  
+Under the guidance of Dr. Feijun Luo, Adjunct Professor of Economics and Finance at Mercer University  
+Researched the American population’s health status and health change, analyzed factors related with social determinants and demographic characteristics  
+Ran descriptive statistics of health status and change, tested the association with key sociodemographic characteristics  
+
+Statistical Study of Relationship Between Dental Materials Supply Chain and Benefited Group  
+Researcher | Yubei Dentist Clinic | Chengdu, China | 07/2021-09/2021  
+Designed survey and analyzed the feedback data of 200 patients through SPSS statistics software to identify the demands of patients  
+Inspected the data on the Dentist Clinic app, detected existing bugs, and updated related data online
+
